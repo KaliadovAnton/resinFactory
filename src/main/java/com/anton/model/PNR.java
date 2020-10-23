@@ -23,7 +23,4 @@ public class PNR {
         batches.add(batch);
     }
 
-    public Batch getBatchById(long id) {
-        return batches.stream().filter(batch -> batch.getId()==id).findFirst().get();
-    }
 }
